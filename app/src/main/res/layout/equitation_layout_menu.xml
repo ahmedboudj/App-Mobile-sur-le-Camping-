@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/img1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choix de parcour : "
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/radioParcours1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parcours 1"/>
+
+        <RadioButton
+            android:id="@+id/radioParcours2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parcours 2"/>
+    </RadioGroup>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Choix de plage : "
+    android:textSize="17dp"
+    android:layout_gravity="center"
+    />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/radioSemaine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semaine/ 15.25$"/>
+
+        <RadioButton
+            android:id="@+id/radioFinDeSemaine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fin de semaine/ 18.25$"
+            android:layout_marginStart="15dp"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de personne : "
+        android:textSize="16dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="100dp"
+        >
+
+        <Button
+            android:id="@+id/buttonPlus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <TextView
+            android:id="@+id/textViewCounter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="22dp"/>
+
+        <Button
+            android:id="@+id/buttonMinus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#504E50"
+        android:textColor="#FFFFFF"
+        android:text="Ajouter"/>
+</LinearLayout>

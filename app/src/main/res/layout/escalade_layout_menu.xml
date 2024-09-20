@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:background="@drawable/img1">
+
+    <TextView
+        android:id="@+id/textViewPERSONNE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de personne :"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="73dp"
+        >
+
+        <Button
+            android:id="@+id/buttonPlusp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <TextView
+            android:id="@+id/textViewCounterp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22dp"/>
+        <Button
+            android:id="@+id/buttonMinusp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+
+        </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Location d’un casque, d’un piolet et de cordes : $ 10,00 par heure par
+personne."
+    android:padding="25dp"
+    android:textColor="#FF5D05"
+    />
+
+        <TextView
+            android:id="@+id/textViewheure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de heure :"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="73dp"
+            >
+
+            <Button
+                android:id="@+id/buttonPlush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+
+            <TextView
+                android:id="@+id/textViewCounterh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="22dp"/>
+        <Button
+            android:id="@+id/buttonMinush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAjouteresc"
+        android:layout_marginStart="100dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#656464"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="60dp"
+        android:text="VALIDER"/>
+</LinearLayout>

@@ -1,0 +1,163 @@
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Nom"
+        android:gravity="center"
+        android:textColorHint="#80000000"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Prénom"
+        android:gravity="center"
+        android:textColorHint="#80000000"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/buttonNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Date Debut"
+        android:textColor="@color/white"
+        android:background="#80216B88"
+        android:textSize="16sp"/>
+
+    <!-- Ajout du TextView après le bouton "Date Debut" -->
+    <TextView
+        android:id="@+id/textdebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="                             Date D'arrivée"
+        android:textColor=  "@color/black"
+        android:background="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/buttonNew2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Date Fin"
+        android:textColor="@color/white"
+        android:background="#80216B88"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textfin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="                                Date départ"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sélectionner le nombre de personnes"
+        android:textSize="14dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:background="#80216B88"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:id="@+id/linearLayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textcompteur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReservation"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Réserver"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:background="#80216B88"
+        />
+
+
+    <Button
+        android:id="@+id/buttonConfirmationFinal"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="FACTURE"
+        android:textColor="#FFFFFF"
+        android:background="#80216B88"
+        android:layout_marginTop="16dp" />
+    <ListView
+        android:id="@+id/listViewReservations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+      <TextView
+          android:id="@+id/textnom"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text=""
+          android:textColor="@color/black"/>
+
+      <TextView
+          android:id="@+id/textprenom"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textnom"
+          android:layout_marginTop="16dp"/>
+
+      <TextView
+          android:id="@+id/textntel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_marginTop="16dp"
+          android:layout_below="@id/textprenom"/>
+      <TextView
+          android:textColor="@color/black"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          />
+
+      <TextView
+          android:id="@+id/textdatedebut"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+         />
+
+      <TextView
+          android:id="@+id/textdatefin"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textdatedebut"/>
+      <TextView
+          android:id="@+id/textlecompteur"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textdatefin"/>
+
+      <TextView
+          android:id="@+id/textnbrejour"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textlecompteur"/>
+
+      <TextView
+          android:id="@+id/textprixjour"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textnbrejour"/>
+
+
+      <TextView
+          android:id="@+id/textequitation"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textprixjour"/>
+
+      <TextView
+          android:id="@+id/textcanot"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textequitation"/>
+
+      <TextView
+          android:id="@+id/textescalade"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="16dp"
+          android:text=""
+          android:textColor="@color/black"
+          android:layout_below="@id/textcanot"/>
+
+</RelativeLayout>
